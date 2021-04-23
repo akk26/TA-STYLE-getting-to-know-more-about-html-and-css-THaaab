@@ -39,13 +39,31 @@ q:before,q:after {
 }
 abbr,acronym { border:0;
 }
+/*  styles     */
+body{line-height: 1.5;}
+p{margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 17px;
+}
+article{margin-bottom: 60px;
+}
+.bottom{text-align: center;
+        background-color: tomato;
+        padding: 20px;
+}
+.top{text-align: center;
+    margin-bottom: 60px;
+    background-color: yellow;
+    padding: 20px;
 
+}
 h1{font-size: 36px;
    font-weight: 700;
 
 }
 .heading{font-size: 25px;
     font-weight: 500;
+    margin-bottom: 20px;
 
 }
 
