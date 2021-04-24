@@ -45,6 +45,10 @@ abbr,acronym { border:0;
 
 /*Style Part */
 
+body{
+line-height: 1.5;
+}
+
 header{
 	background-color: rgb(199,134,199);
 	text-align: center;
@@ -52,43 +56,47 @@ header{
 	padding: 10px;
 }
 
-.navigate a{
-	padding: 15px;
+ a{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
-.main-part{
-	margin-left: 320px;
-	width: 50%;
+.blog{
+	width: 320px;
+	margin: 0 auto;
+
+}
+.time{
+	color: mediumblue;
+	margin: 16px 0;
+	text-transform: uppercase;
 }
 
-h4{
+.heading{
 	font-size: 25px;
-  font-weight: 600;
-	padding-top: 20px;
-	font-style: italic;	
+	color: black;
+	margin: 10px 0;
+	text-transform: capitalize;
 }
 
-p{
-	line-height: 1.5;
-	padding: 10px;
+.para{
+	margin-bottom: 14px;
 }
 
 img{
-	height: 300px;
-	width: 320px;
 	width: 100%;
 }
 
-.date{
-	display: block;
-	color: blueviolet;
-	font-size: 20px;
-	line-height: 3;  	
-}
-
-footer{
+.footer{
 	background-color: rgb(144,144,231);
 	padding: 10px;
-	text-align:center
+	text-align:center;
+	margin-top: 20px;
+	font-size: 20px;
 }
+
+
+
            
